@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<costs:CloudProvider
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:costs="https://www-users.york.ac.uk/~mhe504/CloudCostsMetamodel.ecore"
+    xsi:schemaLocation="https://www-users.york.ac.uk/~mhe504/CloudCostsMetamodel.ecore CloudCostsMetamodel.ecore"
+    name="Microsoft Azure">
+  <utilisedService
+      name="Windows Virtual Machines"
+      currency="GBP">
+    <item xsi:type="costs:ComputeCharge"
+        name="A2 v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.0969"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="A4 v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.2042"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="A1 v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.0134"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="A8 v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.4286"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="A2m v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.1565"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="A4m v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.3287"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="A8m v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.6902"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="D1 v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.0909"/>
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="West Europe (Netherlands)"
+          costPerUnit="0.1006"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="D2 v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.1819"/>
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="West Europe (Netherlands)"
+          costPerUnit="0.2005"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="D3 v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.3637"/>
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="West Europe (Netherlands)"
+          costPerUnit="0.4002"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="D4 v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="0.7274"/>
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="West Europe (Netherlands)"
+          costPerUnit="0.8005"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="D5 v2">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="North Europe (Ireland)"
+          costPerUnit="1.3848"/>
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="West Europe (Netherlands)"
+          costPerUnit="1.5883"/>
+    </item>
+    <item xsi:type="costs:ServiceCharge"
+        name="Additional Static IP"
+        fee="0.003"
+        durationType="hour"
+        durationValue="1"
+        location="Worldwide"/>
+  </utilisedService>
+  <utilisedService
+      name="Networking">
+    <item xsi:type="costs:ServiceCharge"
+        name="Standard VPN Gateway"
+        fee="0.1416"
+        durationType="hour"
+        durationValue="1"
+        location="North Europe (Ireland)"/>
+    <item xsi:type="costs:TransferCharge"
+        name="Azure to Private Network"
+        tierUnit="gb">
+      <costTier
+          name="First 5 GB per month "
+          location="Worldwide"
+          inboundCost="0"
+          outboundCost="4.9999"/>
+      <costTier
+          name="5 GB to 10TB per month"
+          lowerBound="5"
+          upperBound="10000"
+          location="Zone 1 (Europe and Americas)"
+          inboundCost="0"
+          outboundCost="0.0648"/>
+    </item>
+  </utilisedService>
+</costs:CloudProvider>

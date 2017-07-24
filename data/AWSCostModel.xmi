@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<costs:CloudProvider
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:costs="https://www-users.york.ac.uk/~mhe504/CloudCostsMetamodel.ecore"
+    xsi:schemaLocation="https://www-users.york.ac.uk/~mhe504/CloudCostsMetamodel.ecore CloudCostsMetamodel.ecore"
+    name="Amazon Web Services">
+  <utilisedService
+      name="Database Migration Service">
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.micro"
+        unit="hour"
+        type="migration">
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.020"/>
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.021"/>
+      <costTier
+          name="Multi-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.042"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.small"
+        unit="hour"
+        type="migration">
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.039"/>
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.041"/>
+      <costTier
+          name="Multi-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.082"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.medium"
+        unit="hour"
+        type="migration">
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.078"/>
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.082"/>
+      <costTier
+          name="Multi-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.164"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.large"
+        unit="hour"
+        type="migration">
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.157"/>
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.165"/>
+      <costTier
+          name="Multi-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.33"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="c4.large"
+        unit="hour"
+        type="migration">
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.175"/>
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.175"/>
+      <costTier
+          name="Multi-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.35"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="c4.xlarge"
+        unit="hour"
+        type="migration">
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.351"/>
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.35"/>
+      <costTier
+          name="Multi-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.70"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="c4.2xlarge"
+        unit="hour"
+        type="migration">
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.703"/>
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="0.701"/>
+      <costTier
+          name="Multi-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="1.402"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="c4.4xlarge"
+        unit="hour"
+        type="migration">
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="1.404"/>
+      <costTier
+          name="Single-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="1.401"/>
+      <costTier
+          name="Multi-AZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (London)"
+          costPerUnit="2.802"/>
+    </item>
+    <item xsi:type="costs:TransferCharge"
+        name="Internet"
+        tierUnit="gb">
+      <costTier
+          name="Free usage"
+          upperBound="1"
+          location="Internet"
+          inboundCost="0.0"
+          outboundCost="0.0"/>
+      <costTier
+          name="Up to 10 TB / month"
+          lowerBound="1"
+          upperBound="10000"
+          location="Internet"
+          inboundCost="0.0"
+          outboundCost="0.090"/>
+      <costTier
+          name="Up to 40 TB / month"
+          lowerBound="1"
+          upperBound="10000"
+          location="Internet"
+          inboundCost="0.0"
+          outboundCost="0.085"/>
+      <costTier
+          name="Up to 100 TB / month"
+          lowerBound="1"
+          upperBound="10000"
+          location="Internet"
+          inboundCost="0.0"
+          outboundCost="0.070"/>
+    </item>
+  </utilisedService>
+  <utilisedService
+      name="DBaaS">
+    <item xsi:type="costs:ComputeCharge"
+        name="db.t2.micro"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.018"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.036"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.t2.small"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.036"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.072"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.t2.medium"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.073"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.114"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.t2.large"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.146"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.296"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.m4.large"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.193"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.460"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.m4.xlarge"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.386"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.920"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.m4.2xlarge"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.772"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="1.840"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.m4.4xlarge"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="1.545"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="3.679"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.m4.10xlarge"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="3.864"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.m3.medium"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.095"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.245"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.m3.large"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.200"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.490"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.m3.xlarge"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.400"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.980"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.m3.2xlarge"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.785"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="1.960"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.r3.large"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.265"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.505"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.r3.xlarge"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.530"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="1.010"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.r3.2xlarge"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="1.055"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="2.020"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.r3.4xlarge"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="2.110"/>
+      <costTier
+          name="Oracle SE SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="4.040"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="db.r3.8xlarge"
+        unit="hour"
+        type="db">
+      <costTier
+          name="MySQL SingleAZ"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="4.215"/>
+    </item>
+    <item xsi:type="costs:StorageCharge"
+        name="Magnetic Storage"
+        unit="gb"
+        unitDuration="month">
+      <costTier
+          name="GB Month"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.127"/>
+    </item>
+    <item xsi:type="costs:TransferCharge"
+        name="Internet"
+        tierUnit="gb">
+      <costTier
+          name="Up to 10 TB per month"
+          upperBound="10000"
+          location="Worldwide"
+          inboundCost="0.00"
+          outboundCost="0.09"/>
+    </item>
+  </utilisedService>
+  <utilisedService
+      name="EC2 Linux">
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.nano"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.0063"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.micro"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.013"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.small"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.025"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.medium"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.05"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.large"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.101"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.202"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.2xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.404"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.large"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.119"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.238"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.2xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.475"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.4xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.95"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.10xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="2.377"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.16xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="3.803"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m3.medium"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.073"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m3.large"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.146"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m3.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.293"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m3.2xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.585"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="c4.large"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.113"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="c4.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.226"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="r3.large"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.185"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="r3.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.226"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="i2.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.938"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="i2.2xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="1.876"/>
+    </item>
+    <item xsi:type="costs:ServiceCharge"
+        name="Unallocated Elastic IP address"
+        fee="0.005"
+        durationType="hour"
+        durationValue="1"
+        location="EU West (Ireland)"/>
+  </utilisedService>
+  <utilisedService
+      name="EC2 Windows">
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.nano"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.0086"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.micro"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.018"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.small"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.034"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.medium"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.068"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.large"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.129"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.243"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="t2.2xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.466"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.large"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.211"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.422"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.2xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.843"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.4xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="1.686"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.10xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="4.217"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m4.16xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="6.747"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m3.medium"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.129"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m3.large"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.258"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m3.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.517"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="m3.2xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="1.033"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="c4.large"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.205"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="c4.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.41"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="r3.large"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.29"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="r3.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.581"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="i2.xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="0.973"/>
+    </item>
+    <item xsi:type="costs:ComputeCharge"
+        name="i2.2xlarge"
+        unit="hour">
+      <costTier
+          name="On-Demand"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          costPerUnit="1.946"/>
+    </item>
+  </utilisedService>
+  <utilisedService
+      name="VPC">
+    <item xsi:type="costs:ServiceCharge"
+        name="VPN Connection"
+        fee="0.05"
+        durationType="hour"
+        durationValue="1"/>
+    <item xsi:type="costs:ServiceCharge"
+        name="NAT Gateway"
+        fee="0.048"
+        durationType="hour"
+        durationValue="1"
+        location="EU West (Ireland)"/>
+    <item xsi:type="costs:TransferCharge"
+        name="NAT Gateway">
+      <costTier
+          name="GB data processed"
+          lowerBound="-1"
+          upperBound="-1"
+          location="EU West (Ireland)"
+          inboundCost="0.048"
+          outboundCost="0.048"/>
+    </item>
+  </utilisedService>
+</costs:CloudProvider>

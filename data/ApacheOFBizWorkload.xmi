@@ -1,0 +1,1584 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<smm:SmmModel
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:smm="http://www-users.cs.york.ac.uk/~mellison/SMM.ecore"
+    name="Apache OFBiz Synthetic Workload Model"
+    description="Built from ofb-mes.csv">
+  <observations
+      name="Month 1 - Feb 16"
+      whenObserved="2016-02-01T00:00:00.000+0000"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="198456.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.33489585E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.342539494E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="7643644.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          shortDescription=""
+          value="1005783.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 2 - Mar 16"
+      tool=""
+      whenObserved="2016-03-31T23:59:59.000+0100"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="198606.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.335775922E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.343545276E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="7769354.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1024487.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 3 - Apr 16"
+      whenObserved="2016-04-30T23:59:59.000+0100"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="198757.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.336676391E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.344569764E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="7893372.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1042367.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 4 - May 16"
+      whenObserved="2016-05-31T23:59:59.000+0100"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="198912.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.337593371E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.345612131E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="8018760.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1060580.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 5 - Jun 16"
+      observer=""
+      whenObserved="2016-06-30T23:59:59.000+0100"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="199068.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.338522284E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.346672711E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="8150427.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1079316.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 6 - Jul 16"
+      whenObserved="2016-07-31T23:59:59.000+0100"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="199229.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.339475833E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.347752026E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="8276194.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1098337.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 7 - Aug 16"
+      description=""
+      observer=""
+      tool=""
+      whenObserved="2016-08-31T23:59:59.000+0100"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          shortDescription=""
+          value="199395.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.340450167E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.348850363E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="8400197.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1116845.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 8 - Sep 16"
+      description=""
+      whenObserved="2016-09-30T23:59:59.000+0100"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="199561.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.34143767E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.349967208E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="8529538.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1135462.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 9 - Oct 16"
+      whenObserved="2016-10-31T23:59:59.000+0000"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="199727.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.342447702E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.35110267E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="8654968.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1154250.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 10 - Nov 16"
+      whenObserved="2016-11-30T23:59:59.000+0000"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="199898.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.343480003E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.35225692E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="8776916.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1173603.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 11 - Dec 16"
+      observer=""
+      whenObserved="2016-12-31T23:59:59.000+0000"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="200075.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.344526631E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.353430523E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="8903892.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1192220.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Month 12 - Jan 17"
+      whenObserved="2017-01-31T23:59:59.000+0000"
+      requestedMeasures="//@librairies.0/@measureElements.6">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="200251.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="1.345592451E9"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="1.354622743E9"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          shortDescription=""
+          value="9030292.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1210977.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 1 Hour 4"
+      whenObserved="2017-01-26T04:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58713141E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58713376E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="235.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 1 Hour 8"
+      whenObserved="2017-01-26T08:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58703327E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58714849E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="11522.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1473.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 1 Hour 12"
+      whenObserved="2017-01-26T12:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          shortDescription=""
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58700223E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58716708E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="16485.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          shortDescription=""
+          value="1859.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 1 Hour 16"
+      whenObserved="2017-01-26T16:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58714524E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717855E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="3331.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1147.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 1 Hour 20"
+      whenObserved="2017-01-26T20:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717626E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="252.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="23.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 2 Hour 0"
+      whenObserved="2017-01-27T00:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717641E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="237.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 2 Hour 4"
+      whenObserved="2017-01-27T04:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 2 Hour 8"
+      whenObserved="2017-01-27T08:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          shortDescription=""
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 2 Hour 12"
+      whenObserved="2017-01-27T12:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 2 Hour 16"
+      whenObserved="2017-01-27T16:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 2 Hour 20"
+      whenObserved="2017-01-27T20:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 3 Hour 0"
+      whenObserved="2017-01-28T00:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 3 Hour 4"
+      whenObserved="2017-01-28T04:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 3 Hour 8"
+      whenObserved="2017-01-28T08:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 3 Hour 12"
+      whenObserved="2017-01-28T12:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 3 Hour 16"
+      whenObserved="2017-01-28T16:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 3 Hour 20"
+      whenObserved="2017-01-28T20:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 4 Hour 0"
+      whenObserved="2017-01-29T00:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 4 Hour 4"
+      whenObserved="2017-01-29T04:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58717642E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58717878E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 4 Hour 8"
+      observer=""
+      whenObserved="2017-01-29T08:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.5869979E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58720529E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="20739.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="2651.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 4 Hour 12"
+      whenObserved="2017-01-29T12:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38441.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58689815E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58724433E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="34619.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="3904.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 4 Hour 16"
+      tool=""
+      whenObserved="2017-01-29T16:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38445.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58720584E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.5872558E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="4997.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1147.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 4 Hour 20"
+      whenObserved="2017-01-29T20:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38445.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58721823E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58726438E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="4615.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="858.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 5 Hour 0"
+      observer=""
+      whenObserved="2017-01-30T00:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38445.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58725989E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58726493E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="504.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="55.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 5 Hour 4"
+      whenObserved="2017-01-30T04:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38445.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58726257E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58726493E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 5 Hour 8"
+      whenObserved="2017-01-30T08:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38445.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58713096E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58729434E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="16338.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="2941.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 5 Hour 12"
+      whenObserved="2017-01-30T12:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38445.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58711556E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58732678E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="21122.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="3244.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 5 Hour 16"
+      whenObserved="2017-01-30T16:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38445.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58730453E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58733765E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="3312.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="1087.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 5 Hour 20"
+      description=""
+      whenObserved="2017-01-30T20:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38445.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58733229E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58733772E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="543.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="7.0"/>
+    </observedMeasures>
+  </observations>
+  <observations
+      name="Day 6 Hour 0"
+      whenObserved="2017-01-31T00:00:00.000+0000">
+    <observedMeasures
+        name="Database Size"
+        measure="//@librairies.0/@measureElements.0">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Size"
+          value="38445.0"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Legacy Data"
+        measure="//@librairies.0/@measureElements.1">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Unused Entities"
+          value="2.58733536E8"/>
+    </observedMeasures>
+    <observedMeasures
+        name="Database Workload"
+        measure="//@librairies.0/@measureElements.2">
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Count"
+          value="2.58733772E8"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Reads"
+          value="236.0"/>
+      <measurements
+          xsi:type="smm:DirectMeasurement"
+          name="Entity Writes"
+          value="0.0"/>
+    </observedMeasures>
+  </observations>
+  <librairies
+      name="System Measures">
+    <measureElements
+        xsi:type="smm:DirectMeasure"
+        name="Secondary Storage Usage"
+        trait="//@librairies.0/@measureElements.4"
+        scope="//@librairies.0/@measureElements.5"
+        unit="MB"/>
+    <measureElements
+        xsi:type="smm:DirectMeasure"
+        name="Unused Entities"
+        trait="//@librairies.0/@measureElements.3"
+        scope="//@librairies.0/@measureElements.5"
+        unit="CATALOGUE-USER-PRICES-LAZER"/>
+    <measureElements
+        xsi:type="smm:Counting"
+        name="Entities"
+        trait="//@librairies.0/@measureElements.3"
+        scope="//@librairies.0/@measureElements.5"
+        unit="CATALOGUE-USER-PRICES-LAZER"/>
+    <measureElements
+        xsi:type="smm:Characteristic"
+        name="Number"/>
+    <measureElements
+        xsi:type="smm:Characteristic"
+        name="Size"/>
+    <measureElements
+        xsi:type="smm:Scope"
+        name="Pre-production environment"
+        class="java.lang.String"/>
+    <measureElements
+        xsi:type="smm:Characteristic"
+        name="Growth"/>
+  </librairies>
+</smm:SmmModel>

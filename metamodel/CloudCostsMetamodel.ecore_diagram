@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_laI0YMJdEeSbxKSMaoO5Mg" type="Ecore" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_lcx4sMJdEeSbxKSMaoO5Mg" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lcx4ssJdEeSbxKSMaoO5Mg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lcx4s8JdEeSbxKSMaoO5Mg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lcx4tMJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lcx4tcJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lcx4tsJdEeSbxKSMaoO5Mg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lcx4t8JdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lcx4uMJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lcx4ucJdEeSbxKSMaoO5Mg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lcx4usJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lcx4u8JdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="CloudCostsMetamodel.ecore#//UtilisedService"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcx4scJdEeSbxKSMaoO5Mg" x="440" y="-220"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lcyfwMJdEeSbxKSMaoO5Mg" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lcyfwsJdEeSbxKSMaoO5Mg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lcyfw8JdEeSbxKSMaoO5Mg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lcyfxMJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lcyfxcJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lcyfxsJdEeSbxKSMaoO5Mg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lcyfx8JdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lcyfyMJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lczG0MJdEeSbxKSMaoO5Mg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lczG0cJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lczG0sJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="CloudCostsMetamodel.ecore#//AbstractCharge"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lcyfwcJdEeSbxKSMaoO5Mg" x="445" y="-100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lczG08JdEeSbxKSMaoO5Mg" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lczG1cJdEeSbxKSMaoO5Mg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lczt4MJdEeSbxKSMaoO5Mg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lczt4cJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lczt4sJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lczt48JdEeSbxKSMaoO5Mg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lczt5MJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lczt5cJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lczt5sJdEeSbxKSMaoO5Mg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lczt58JdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lczt6MJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="CloudCostsMetamodel.ecore#//ComputeCharge"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lczG1MJdEeSbxKSMaoO5Mg" x="505" y="-30"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lc0U8MJdEeSbxKSMaoO5Mg" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lc0U8sJdEeSbxKSMaoO5Mg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc0U88JdEeSbxKSMaoO5Mg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc0U9MJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc0U9cJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc0U9sJdEeSbxKSMaoO5Mg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc0U98JdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc0U-MJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc0U-cJdEeSbxKSMaoO5Mg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc0U-sJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc0U-8JdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="CloudCostsMetamodel.ecore#//ServiceCharge"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lc0U8cJdEeSbxKSMaoO5Mg" x="640" y="-30"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lc08AMJdEeSbxKSMaoO5Mg" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lc08AsJdEeSbxKSMaoO5Mg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc08A8JdEeSbxKSMaoO5Mg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc08BMJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc08BcJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc08BsJdEeSbxKSMaoO5Mg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc08B8JdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc08CMJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc08CcJdEeSbxKSMaoO5Mg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc08CsJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc08C8JdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="CloudCostsMetamodel.ecore#//TransferCharge"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lc08AcJdEeSbxKSMaoO5Mg" x="155" y="-30"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lc1jEMJdEeSbxKSMaoO5Mg" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lc1jEsJdEeSbxKSMaoO5Mg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc1jE8JdEeSbxKSMaoO5Mg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc1jFMJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc1jFcJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc1jFsJdEeSbxKSMaoO5Mg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc1jF8JdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc1jGMJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc2KIMJdEeSbxKSMaoO5Mg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc2KIcJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc2KIsJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="CloudCostsMetamodel.ecore#//StorageCharge"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lc1jEcJdEeSbxKSMaoO5Mg" x="335" y="-30"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lc2KI8JdEeSbxKSMaoO5Mg" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lc2KJcJdEeSbxKSMaoO5Mg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc2KJsJdEeSbxKSMaoO5Mg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc2KJ8JdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc2KKMJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc2xMMJdEeSbxKSMaoO5Mg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc2xMcJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc2xMsJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc2xM8JdEeSbxKSMaoO5Mg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc2xNMJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc2xNcJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="CloudCostsMetamodel.ecore#//Tier"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lc2KJMJdEeSbxKSMaoO5Mg" x="255" y="165"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lc2xNsJdEeSbxKSMaoO5Mg" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lc3YQMJdEeSbxKSMaoO5Mg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc3YQcJdEeSbxKSMaoO5Mg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc3YQsJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc3YQ8JdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc3YRMJdEeSbxKSMaoO5Mg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc3YRcJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc3YRsJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc3YR8JdEeSbxKSMaoO5Mg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc3YSMJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc3YScJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="CloudCostsMetamodel.ecore#//TransferCostTier"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lc2xN8JdEeSbxKSMaoO5Mg" x="150" y="85"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lc3YSsJdEeSbxKSMaoO5Mg" type="2001" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lc3_UMJdEeSbxKSMaoO5Mg" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc3_UcJdEeSbxKSMaoO5Mg" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc3_UsJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc3_U8JdEeSbxKSMaoO5Mg"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_FZs3wBOJEeaqCqRrCxwlmw" value="0.2033898305084746"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc3_VMJdEeSbxKSMaoO5Mg" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc3_VcJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc3_VsJdEeSbxKSMaoO5Mg"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_FZuF4BOJEeaqCqRrCxwlmw" value="0.3220338983050847"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc3_V8JdEeSbxKSMaoO5Mg" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc3_WMJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc3_WcJdEeSbxKSMaoO5Mg"/>
+      <layoutConstraint xmi:type="notation:Ratio" xmi:id="_FZus8BOJEeaqCqRrCxwlmw" value="0.2033898305084746"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="CloudCostsMetamodel.ecore#//StorageCostTier"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lc3YS8JdEeSbxKSMaoO5Mg" x="345" y="85"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lc4mYMJdEeSbxKSMaoO5Mg" type="2005" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lc4mYsJdEeSbxKSMaoO5Mg" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc4mY8JdEeSbxKSMaoO5Mg" type="7011">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc4mZMJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc4mZcJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc4mZsJdEeSbxKSMaoO5Mg" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc4mZ8JdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc4maMJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EEnum" href="CloudCostsMetamodel.ecore#//TimeSpan"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lc4mYcJdEeSbxKSMaoO5Mg" x="530" y="145" width="86"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lc5NcMJdEeSbxKSMaoO5Mg" type="2005" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lc5NcsJdEeSbxKSMaoO5Mg" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc5Nc8JdEeSbxKSMaoO5Mg" type="7011">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc5NdMJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc5NdcJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc5NdsJdEeSbxKSMaoO5Mg" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc5Nd8JdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc5NeMJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EEnum" href="CloudCostsMetamodel.ecore#//TransferUnit"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lc5NccJdEeSbxKSMaoO5Mg" x="625" y="145" width="100"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_lc50gMJdEeSbxKSMaoO5Mg" type="2005" fontName="Sans">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lc50gsJdEeSbxKSMaoO5Mg" type="5005"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc50g8JdEeSbxKSMaoO5Mg" type="7011">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc50hMJdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc50hcJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_lc50hsJdEeSbxKSMaoO5Mg" type="7012">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_lc50h8JdEeSbxKSMaoO5Mg"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_lc50iMJdEeSbxKSMaoO5Mg"/>
+    </children>
+    <element xmi:type="ecore:EEnum" href="CloudCostsMetamodel.ecore#//StorageUnit"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lc50gcJdEeSbxKSMaoO5Mg" x="730" y="161" width="98"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_laI0YcJdEeSbxKSMaoO5Mg"/>
+  <element xmi:type="ecore:EPackage" href="CloudCostsMetamodel.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_leqvEMJdEeSbxKSMaoO5Mg" type="4003" source="_lcx4sMJdEeSbxKSMaoO5Mg" target="_lcyfwMJdEeSbxKSMaoO5Mg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lerWIMJdEeSbxKSMaoO5Mg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lerWIcJdEeSbxKSMaoO5Mg" x="-1" y="-23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lerWIsJdEeSbxKSMaoO5Mg" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lerWI8JdEeSbxKSMaoO5Mg" x="-27" y="19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_leqvEcJdEeSbxKSMaoO5Mg" fontName="Sans"/>
+    <element xmi:type="ecore:EReference" href="CloudCostsMetamodel.ecore#//UtilisedService/item"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_leqvEsJdEeSbxKSMaoO5Mg" points="[0, 0, -179, -96]$[179, 96, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfjf4MJdEeSbxKSMaoO5Mg" id="(0.5,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfjf4cJdEeSbxKSMaoO5Mg" id="(0.4583333333333333,0.01694915254237288)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_levnkMJdEeSbxKSMaoO5Mg" type="4004" source="_lczG08JdEeSbxKSMaoO5Mg" target="_lcyfwMJdEeSbxKSMaoO5Mg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_levnkcJdEeSbxKSMaoO5Mg" fontName="Sans"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_levnksJdEeSbxKSMaoO5Mg" points="[-7, 0, 89, 70]$[-7, -26, 89, 44]$[-41, -43, 55, 27]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lflVEsJdEeSbxKSMaoO5Mg" id="(0.7,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lflVE8JdEeSbxKSMaoO5Mg" id="(0.5,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_leyD0MJdEeSbxKSMaoO5Mg" type="4004" source="_lc0U8MJdEeSbxKSMaoO5Mg" target="_lcyfwMJdEeSbxKSMaoO5Mg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_leyD0cJdEeSbxKSMaoO5Mg" fontName="Sans"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_leyD0sJdEeSbxKSMaoO5Mg" points="[0, -91, 224, 70]$[0, -117, 224, 44]$[-187, -154, 37, 7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfi40MJdEeSbxKSMaoO5Mg" id="(0.49748743718592964,1.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfi40cJdEeSbxKSMaoO5Mg" id="(0.6666666666666666,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_le0gEMJdEeSbxKSMaoO5Mg" type="4003" source="_lc08AMJdEeSbxKSMaoO5Mg" target="_lc2xNsJdEeSbxKSMaoO5Mg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_le0gE8JdEeSbxKSMaoO5Mg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_le0gFMJdEeSbxKSMaoO5Mg" x="7" y="-29"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_le0gFcJdEeSbxKSMaoO5Mg" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_le0gFsJdEeSbxKSMaoO5Mg" x="-22" y="19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_le0gEcJdEeSbxKSMaoO5Mg" fontName="Sans"/>
+    <element xmi:type="ecore:EReference" href="CloudCostsMetamodel.ecore#//TransferCharge/costTier"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_le0gEsJdEeSbxKSMaoO5Mg" points="[0, 0, -233, -96]$[233, 96, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfkG8sJdEeSbxKSMaoO5Mg" id="(0.5347593582887701,0.9066666666666666)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfkuAMJdEeSbxKSMaoO5Mg" id="(0.4975124378109453,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_le3jYMJdEeSbxKSMaoO5Mg" type="4004" source="_lc08AMJdEeSbxKSMaoO5Mg" target="_lcyfwMJdEeSbxKSMaoO5Mg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_le3jYcJdEeSbxKSMaoO5Mg" fontName="Sans"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_le3jYsJdEeSbxKSMaoO5Mg" points="[0, -1, -232, 70]$[0, -37, -232, 34]$[214, -69, -18, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfkG8MJdEeSbxKSMaoO5Mg" id="(0.5240641711229946,0.013333333333333334)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfkG8cJdEeSbxKSMaoO5Mg" id="(0.16666666666666666,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_le5_oMJdEeSbxKSMaoO5Mg" type="4003" source="_lc1jEMJdEeSbxKSMaoO5Mg" target="_lc3YSsJdEeSbxKSMaoO5Mg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_le5_o8JdEeSbxKSMaoO5Mg" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_le5_pMJdEeSbxKSMaoO5Mg" x="7" y="-31"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_le6msMJdEeSbxKSMaoO5Mg" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_le6mscJdEeSbxKSMaoO5Mg" x="-22" y="17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_le5_ocJdEeSbxKSMaoO5Mg" fontName="Sans"/>
+    <element xmi:type="ecore:EReference" href="CloudCostsMetamodel.ecore#//StorageCharge/costTier"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_le5_osJdEeSbxKSMaoO5Mg" points="[0, 0, 263, -96]$[-263, 96, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfkuAcJdEeSbxKSMaoO5Mg" id="(0.536723163841808,0.9866666666666667)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfkuAsJdEeSbxKSMaoO5Mg" id="(0.4972972972972973,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_le9C8MJdEeSbxKSMaoO5Mg" type="4004" source="_lc1jEMJdEeSbxKSMaoO5Mg" target="_lcyfwMJdEeSbxKSMaoO5Mg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_le9C8cJdEeSbxKSMaoO5Mg" fontName="Sans"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_le9qAMJdEeSbxKSMaoO5Mg" points="[6, 0, -136, 80]$[6, -35, -136, 45]$[51, -50, -91, 30]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lflVEMJdEeSbxKSMaoO5Mg" id="(0.4915254237288136,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lflVEcJdEeSbxKSMaoO5Mg" id="(0.8333333333333334,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_le_fMMJdEeSbxKSMaoO5Mg" type="4004" source="_lc2xNsJdEeSbxKSMaoO5Mg" target="_lc2KI8JdEeSbxKSMaoO5Mg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_le_fMcJdEeSbxKSMaoO5Mg" fontName="Sans"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_le_fMsJdEeSbxKSMaoO5Mg" points="[0, 1, -35, -51]$[0, 52, -35, 0]$[0, 52, -35, 0]$[34, 52, -1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfl8IMJdEeSbxKSMaoO5Mg" id="(0.3776595744680851,0.9866666666666667)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfl8IcJdEeSbxKSMaoO5Mg" id="(0.0078125,0.5054945054945055)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lfBUYMJdEeSbxKSMaoO5Mg" type="4004" source="_lc3YSsJdEeSbxKSMaoO5Mg" target="_lc2KI8JdEeSbxKSMaoO5Mg">
+    <styles xmi:type="notation:FontStyle" xmi:id="_lfBUYcJdEeSbxKSMaoO5Mg" fontName="Sans"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lfBUYsJdEeSbxKSMaoO5Mg" points="[0, 3, 36, -67]$[0, 70, 36, 0]$[-35, 70, 1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfjf4sJdEeSbxKSMaoO5Mg" id="(0.41954022988505746,0.9491525423728814)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lfjf48JdEeSbxKSMaoO5Mg" id="(0.9921875,0.5054945054945055)"/>
+  </edges>
+</notation:Diagram>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="CostModel" nsURI="https://www-users.york.ac.uk/~mhe504/CloudCostsMetamodel.ecore"
+    nsPrefix="costs">
+  <eClassifiers xsi:type="ecore:EClass" name="CloudProvider">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="utilisedService" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//UtilisedService" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UtilisedService">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="item" ordered="false" lowerBound="1"
+        upperBound="-1" eType="#//AbstractCharge" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="currency" ordered="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral="USD"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractCharge" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral=""/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ComputeCharge" eSuperTypes="#//AbstractCharge">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unit" eType="#//TimeSpan"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" lowerBound="1" eType="#//ComputeResourceType"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="costTier" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//ComputeCostTier" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ServiceCharge" eSuperTypes="#//AbstractCharge">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fee" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal"
+        defaultValueLiteral="0.0"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="durationType" eType="#//TimeSpan"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="durationValue" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TransferCharge" eSuperTypes="#//AbstractCharge">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="tierUnit" ordered="false"
+        eType="#//TransferUnit"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="costTier" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//TransferCostTier" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="StorageCharge" eSuperTypes="#//AbstractCharge">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unit" ordered="false" eType="#//StorageUnit"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unitDuration" ordered="false"
+        eType="#//TimeSpan"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="costTier" ordered="false"
+        lowerBound="1" upperBound="-1" eType="#//StorageCostTier" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tier" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" ordered="false" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString" defaultValueLiteral=""/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lowerBound" ordered="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="upperBound" ordered="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="location" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TransferCostTier" eSuperTypes="#//Tier">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="inboundCost" ordered="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="outboundCost" ordered="false"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="StorageCostTier" eSuperTypes="#//Tier">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="costPerUnit" ordered="false"
+        lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ComputeCostTier" eSuperTypes="#//Tier">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="costPerUnit" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBigDecimal"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="TimeSpan">
+    <eLiterals name="minute" literal="minute"/>
+    <eLiterals name="hour" value="1" literal="hour"/>
+    <eLiterals name="day" value="2" literal="day"/>
+    <eLiterals name="month" value="3"/>
+    <eLiterals name="year" value="4" literal="year"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="TransferUnit">
+    <eLiterals name="mb" literal="mb"/>
+    <eLiterals name="gb" value="1" literal="gb"/>
+    <eLiterals name="tb" value="2" literal="tb"/>
+    <eLiterals name="pb" value="3"/>
+    <eLiterals name="request" value="4" literal="request"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="StorageUnit">
+    <eLiterals name="mb" literal="mb"/>
+    <eLiterals name="gb" value="1" literal="gb"/>
+    <eLiterals name="tb" value="2" literal="tb"/>
+    <eLiterals name="pb" value="3"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ComputeResourceType">
+    <eLiterals name="general"/>
+    <eLiterals name="db" value="1" literal="db"/>
+    <eLiterals name="migration" value="2"/>
+  </eClassifiers>
+</ecore:EPackage>
