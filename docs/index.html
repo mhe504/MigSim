@@ -5,12 +5,25 @@
 
 <body>
 <h1>MigSim</h1>
-<p>This is the project webpage for MigSim, a tool for simulating cloud database database migration. MigSim consumes KDM and SMM models which can be obtained using <a href="mhe504.github.io/DBLModeller">DMLModeller</a>. It is an extension of the <a href="https://github.com/Cloudslab/cloudsim">CloudSim</a> discrete-event simulation framework.</p>
+<p>This is the project webpage for MigSim, a tool for simulating cloud database database migration. MigSim consumes KDM and SMM models which can be obtained using <a href="mhe504.github.io/DBLModeller">DBLModeller</a>. It is an extension of the <a href="https://github.com/Cloudslab/cloudsim">CloudSim</a> discrete-event simulation framework.</p></br>
 
 <h2>Getting Started</h2>
-<p>MigSim is packaged as JAR file which can be downloaded from <a href="">here</a>, the source code is also on <a href="">GitHub</a>. Java 8 or higher must be installed. It has been tested on Ubuntu, but should run equally well on Windows.</p>
+<p>MigSim is packaged as JAR file which can be downloaded from <a href="MigSim.jar">here</a>, the source code is also on <a href="https://github.com/mhe504/MigSim/">GitHub</a>. Java 8 or higher must be installed. It has been tested on Ubuntu (Windows should also be supported) and can be executed with:</p>
+<ul>
+<li>java -jar MigSim.jar</li>
+</ul>
+<p>A file called <b>params.config</b> must be in the same directory as the JAR file. This file specifies the location of the requried structure (KDM), workload (SMM), and cost models. It is also used to specifiy several key paramters (e.g., database performance and chosen cloud instance type). An example can be downloaded from <a href="https://raw.githubusercontent.com/mhe504/MigSim/master/params.config">here</a>.</p></br>
 
-
+<h3>Research Data</h3>
+<p>We have used a series of models with MigSim during our research. These are available below:</p>
+<ul>
+<li><a href="https://raw.githubusercontent.com/mhe504/MigSim/master/data/ApacheOFBizStructure.xmi">Apache OFBiz Structure (KDM)</a></li>
+<li><a href="https://raw.githubusercontent.com/mhe504/MigSim/master/data/ApacheOFBizWorkload.xmi">Apache OFBiz Workload (KDM)</a></li>
+<li><a href="https://raw.githubusercontent.com/mhe504/MigSim/master/data/ApacheOFBizWorkload_163GB.xmi">Apache OFBiz Workload - 163GB (KDM)</a></li>
+<li><a href="https://raw.githubusercontent.com/mhe504/MigSim/master/data/AWSCostModel.xmi">Amazon Web Services Cost Model</a></li>
+<li><a href="https://raw.githubusercontent.com/mhe504/MigSim/master/data/AzureCostModel.xmi">Microsoft Azure Cost Model</a></li>
+</ul>
 </body>
+<p></br>The Science Warehouse models are considered commercially sensitive and have not been released.</p>
 
 </html>
